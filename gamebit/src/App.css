@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  /* overflow: auto; */
+}
+/* NOT WORKING SO FAR RESPONSIVE DESIGN DUE TO THE OPTIONS CAROUSEL */
+/* @media screen and (min-width: 80rem) {
+  .options {
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      cursor: default;
+    }
+} */
+
+.logo {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
